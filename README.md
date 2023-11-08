@@ -17,6 +17,17 @@ It relies on the Docker registry [HTTPS API v2](https://docs.docker.com/registry
   <img src="https://user-images.githubusercontent.com/26483750/77766160-8da6f080-703f-11ea-953c-fd69978cb3bf.gif">
 </p>
 
+##  docker get file-system
+`docker load -i {pkg}`
+
+`dockder create {imageId}`
+
+`docker export {containerId} -o yyy.tar`
+
+`docker rm {containerId}`
+
+`docker rmi {imageId}`
+
 ## Limitations
 - Only support v2 manifests: some registries, like quay.io which only uses v1 manifests, may not work.
 
